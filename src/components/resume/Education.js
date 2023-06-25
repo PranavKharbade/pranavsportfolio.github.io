@@ -66,7 +66,7 @@ const Education = () => {
             title="Web Developer"
             subTitle="Access Multimedia (2018 - 2019)"
             result="Nagpur"
-            des="Completed Traning in MEACreated"
+            des="Developed multiple projects base on clients requirement using wordpress"
           />
         </div>
       </div>
