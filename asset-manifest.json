@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/PranavKharbade/pranavsportfolio.github.io/static/css/main.fdf0c916.css",
+    "main.js": "/PranavKharbade/pranavsportfolio.github.io/static/js/main.8a744ff1.js",
+    "static/media/bannerImg.png": "/PranavKharbade/pranavsportfolio.github.io/static/media/bannerImg.c8c2aa66ce3325320bd6.png",
+    "static/media/projectThree.jpeg": "/PranavKharbade/pranavsportfolio.github.io/static/media/projectThree.5cfbf60072f0862e0727.jpeg",
+    "static/media/projectTwo.jpg": "/PranavKharbade/pranavsportfolio.github.io/static/media/projectTwo.058109a443fe8e5e4886.jpg",
+    "static/media/projectOne.jpg": "/PranavKharbade/pranavsportfolio.github.io/static/media/projectOne.8a42b000f80463b62a50.jpg",
+    "static/media/contactImg.png": "/PranavKharbade/pranavsportfolio.github.io/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.png": "/PranavKharbade/pranavsportfolio.github.io/static/media/testimonialOne.8056138b1bf5b383f4e0.png",
+    "static/media/logo.png": "/PranavKharbade/pranavsportfolio.github.io/static/media/logo.89c6630aae11158c9641.png",
+    "index.html": "/PranavKharbade/pranavsportfolio.github.io/index.html",
+    "main.fdf0c916.css.map": "/PranavKharbade/pranavsportfolio.github.io/static/css/main.fdf0c916.css.map",
+    "main.8a744ff1.js.map": "/PranavKharbade/pranavsportfolio.github.io/static/js/main.8a744ff1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdf0c916.css",
+    "static/js/main.8a744ff1.js"
+  ]
+}
