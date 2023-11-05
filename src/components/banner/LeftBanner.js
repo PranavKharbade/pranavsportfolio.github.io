@@ -26,7 +26,11 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          Testing description
+        Strong proficiency in JavaScript, Wordpress, object model and Typescript.
+Complete understanding of ReactJS and its main fundamentals like JSX, Virtual DOM, component lifecycle, etc.
+Excellent Communication skills
+Preceding experience with ReactJS workflows like Redux.
+Understanding of GraphQL, HTML/CSS,  code versioning tools like GIT, SVN, etc.,
         </p>
       </div>
      {/* Media */}
