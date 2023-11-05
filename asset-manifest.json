@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pranavsportfolio.github.io/static/css/main.fdf0c916.css",
-    "main.js": "/pranavsportfolio.github.io/static/js/main.0b1ad450.js",
+    "main.js": "/pranavsportfolio.github.io/static/js/main.608aea2b.js",
     "static/media/bannerImg.png": "/pranavsportfolio.github.io/static/media/bannerImg.c8c2aa66ce3325320bd6.png",
     "static/media/projectThree.jpeg": "/pranavsportfolio.github.io/static/media/projectThree.5cfbf60072f0862e0727.jpeg",
     "static/media/projectTwo.jpg": "/pranavsportfolio.github.io/static/media/projectTwo.058109a443fe8e5e4886.jpg",
@@ -11,10 +11,10 @@
     "static/media/logo.png": "/pranavsportfolio.github.io/static/media/logo.89c6630aae11158c9641.png",
     "index.html": "/pranavsportfolio.github.io/index.html",
     "main.fdf0c916.css.map": "/pranavsportfolio.github.io/static/css/main.fdf0c916.css.map",
-    "main.0b1ad450.js.map": "/pranavsportfolio.github.io/static/js/main.0b1ad450.js.map"
+    "main.608aea2b.js.map": "/pranavsportfolio.github.io/static/js/main.608aea2b.js.map"
   },
   "entrypoints": [
     "static/css/main.fdf0c916.css",
-    "static/js/main.0b1ad450.js"
+    "static/js/main.608aea2b.js"
   ]
 }
