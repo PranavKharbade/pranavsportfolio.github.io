@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
+import Helmet from 'react-helmet';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -14,9 +15,15 @@ const LeftBanner = () => {
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        
+        <Helmet>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Pranav Kharbade</span>
+        Hi, I'm <span className="text-designColor capitalize">Pranav Kharbade</span>
         </h1>
+        <meta name="Introduction" content="Introduction of Pranav Kharbade" />
+        {/* Other meta tags */}
+      </Helmet>
+         
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
@@ -25,13 +32,20 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
+        <Helmet>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
         Strong proficiency in JavaScript, Wordpress, object model and Typescript.
-Complete understanding of ReactJS and its main fundamentals like JSX, Virtual DOM, component lifecycle, etc.
-Excellent Communication skills
-Preceding experience with ReactJS workflows like Redux.
-Understanding of GraphQL, HTML/CSS,  code versioning tools like GIT, SVN, etc.,
+        Complete understanding of ReactJS and its main fundamentals like JSX, Virtual DOM, component lifecycle, etc.
+        Excellent Communication skills
+        Preceding experience with ReactJS workflows like Redux.
+        Understanding of GraphQL, HTML/CSS,  code versioning tools like GIT, SVN, etc.
         </p>
+        <meta name="Introduction" content="Pranav Kharbade is Strong proficient in JavaScript, Wordpress, object model and Typescript.
+        Complete understanding of ReactJS and its main fundamentals like JSX, Virtual DOM, component lifecycle, etc.
+        Excellent Communication skills
+        Preceding experience with ReactJS workflows like Redux.
+        Understanding of GraphQL, HTML/CSS,  code versioning tools like GIT, SVN, etc.," />
+        </Helmet>
       </div>
      {/* Media */}
      <Media />
