@@ -2,9 +2,8 @@ import React, {  useState } from 'react'
 import Title from '../layouts/Title';
 import Education from './Education';
 import Skills from './Skills';
-import Achievement from './Achievement';
 import Experience from "./Experience"
-
+import { Helmet } from 'react-helmet';
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
    const [skillData, setSkillData] = useState(false);
@@ -13,7 +12,11 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />
+      <Helmet>
+      <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />
+        <meta name="My Resume" content="Pranav Kharbade Resume 4+ YEARS OF EXPERIENCE" />
+      </Helmet>
+        
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">

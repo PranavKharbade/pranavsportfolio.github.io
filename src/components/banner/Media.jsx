@@ -1,13 +1,19 @@
 import React from 'react'
 import { FaFacebookF,  FaLinkedinIn, FaReact } from "react-icons/fa";
+import { Helmet } from 'react-helmet';
 import { SiCss3, SiHtml5,SiTypescript,SiJavascript, SiWordpress,SiAzuredevops } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
+          
+          <Helmet>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
+          Find me in
           </h2>
+        <meta name="contact details" content="contact details of pranav kharbade" />
+      </Helmet>
+            
           <div className="flex gap-4">
             <span className="bannerIcon">
             <a href="https://www.facebook.com/pranav.kharbade/" target="_blank" >

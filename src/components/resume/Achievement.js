@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
-
+import { Helmet } from 'react-helmet';
 const Achievement = () => {
   return (
     <motion.div
@@ -11,8 +11,12 @@ const Achievement = () => {
     >
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+        <Helmet>
+        <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
           <h2 className="text-4xl font-bold">Company Experience</h2>
+        <meta name="Company Experience" content="Company Experience" />
+      </Helmet>
+          
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
