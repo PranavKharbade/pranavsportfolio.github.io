@@ -12,6 +12,7 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
+      <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />
       <Helmet>
       <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />
         <meta name="My Resume" content="Pranav Kharbade Resume 4+ YEARS OF EXPERIENCE" />

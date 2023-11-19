@@ -39,8 +39,11 @@ const Navbar = () => {
           className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
         >
           <Helmet>
-          <FiMenu />
+            <meta name="experiance menu"  desc=' experiance menu of Pranav Kharbade'/>
           </Helmet>
+
+          <FiMenu />
+         
         </span>
         {showMenu && (
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
@@ -53,9 +56,14 @@ const Navbar = () => {
                   Earum soluta perspiciatis molestias enim cum repellat, magnam
                   exercitationem distinctio aliquid nam.
                 </p>
-        <meta name="description" content="Page description" />
-        {/* Other meta tags */}
-      </Helmet>
+                    <meta name="description" content="Page description" />
+                </Helmet>
+                <p className="text-sm text-gray-400 mt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Earum soluta perspiciatis molestias enim cum repellat, magnam
+                  exercitationem distinctio aliquid nam.
+                </p>
+        
                 
               </div>
               <ul className="flex flex-col gap-4">
@@ -80,13 +88,12 @@ const Navbar = () => {
               </ul>
               <div className="flex flex-col gap-4">
               <Helmet>
+                
+              <meta name="Find me in" content="Find Pranav Kharbade in" />
+              </Helmet>
               <h2 className="text-base uppercase font-titleFont mb-4">
                   Find me in
-                </h2>
-              <meta name="Find me in" content="Find Pranav Kharbade in" />
-                {/* Other meta tags */}
-              </Helmet>
-                
+                </h2>               
                 <div className="flex gap-4">
                   <span className="bannerIcon">
                   <a href="https://www.facebook.com/pranav.kharbade/" target="_blank" >
